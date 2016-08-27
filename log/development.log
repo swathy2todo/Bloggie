@@ -1,0 +1,3499 @@
+
+
+Started GET "/posts" for 127.0.0.1 at 2016-08-26 23:01:14 +0530
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.5) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (36.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-26 23:01:16 +0530
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.5) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.2ms)
+  [1m[36m (3.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (6.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreatePosts (20140911142836)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  CREATE TABLE "posts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "body" text, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20140911142836"]]
+  [1m[35m (2.9ms)[0m  commit transaction
+Migrating to CreateComments (20140911204322)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "body" text, "post_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.3ms)[0m  [1mCREATE  INDEX "index_comments_on_post_id" ON "comments" ("post_id")[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20140911204322"]]
+  [1m[36m (2.7ms)[0m  [1mcommit transaction[0m
+Migrating to DeviseCreateUsers (20140911230918)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.8ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(255) DEFAULT '' NOT NULL, "reset_password_token" varchar(255), "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (1.8ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.3ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20140911230918"]]
+  [1m[35m (2.8ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_comments_on_post_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_comments_on_post_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-26 23:02:19 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1237ms (Views: 1206.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-26 23:02:20 +0530
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-26 23:02:20 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-26 23:02:20 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-26 23:02:20 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-26 23:02:20 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-26 23:02:20 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-26 23:02:20 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-26 23:02:20 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-26 23:02:20 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-26 23:02:20 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-26 23:02:20 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-26 23:02:20 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-26 23:02:20 +0530
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2016-08-26 23:02:20 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-26 23:02:23 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 74ms (Views: 73.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2016-08-26 23:02:25 +0530
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 102ms (Views: 101.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/profile.jpeg" for 127.0.0.1 at 2016-08-26 23:02:25 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-26 23:02:34 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 93ms (Views: 92.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-08-26 23:02:38 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (2.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (84.8ms)
+Completed 200 OK in 196ms (Views: 180.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2016-08-26 23:02:42 +0530
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 102ms (Views: 100.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-26 23:02:46 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 91ms (Views: 89.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-26 23:02:51 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 88ms (Views: 87.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2016-08-26 23:12:31 +0530
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 190ms (Views: 186.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-26 23:12:32 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 104ms (Views: 101.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2016-08-26 23:12:39 +0530
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.8ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.5ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (46.3ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2016-08-26 23:12:45 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 91ms (Views: 89.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2016-08-26 23:12:46 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 96ms (Views: 94.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-26 23:12:46 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-26 23:12:46 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-26 23:12:46 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-26 23:12:46 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-26 23:12:46 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-26 23:12:46 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-26 23:12:46 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-26 23:12:46 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-26 23:12:46 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-26 23:12:46 +0530
+
+
+Started GET "/createpost" for 127.0.0.1 at 2016-08-26 23:12:56 +0530
+
+ActionController::RoutingError (No route matches [GET] "/createpost"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.8ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (53.4ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2016-08-26 23:13:14 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 81ms (Views: 80.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-26 23:13:14 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-26 23:13:14 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-26 23:13:14 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-26 23:13:14 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-26 23:13:14 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-26 23:13:14 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-26 23:13:14 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-26 23:13:14 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-26 23:13:14 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-26 23:13:14 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-26 23:13:14 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-26 23:13:14 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-26 23:13:14 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2016-08-26 23:13:16 +0530
+Processing by PostsController#new as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-08-26 23:13:16 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 92ms (Views: 90.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-26 23:13:16 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-26 23:13:16 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-26 23:13:16 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-26 23:13:17 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-26 23:13:17 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-26 23:13:17 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-26 23:13:17 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-26 23:13:17 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-26 23:13:17 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-26 23:13:17 +0530
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2016-08-26 23:13:20 +0530
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 80ms (Views: 79.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2016-08-26 23:13:42 +0530
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JxRm9NQHpivsFhUjW59hqWScLH/DfNPNsBVN9dSweQU=", "user"=>{"email"=>"gajeshbht@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (2.3ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'gajeshbht@gmail.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (3.0ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "encrypted_password", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2016-08-26 17:43:43.101409"], ["email", "gajeshbht@gmail.com"], ["encrypted_password", "$2a$10$xN4VhBffdqb9W3Js4MhxKu8e1HFp41bY3ud6MTWqPwxExGFjJtlKS"], ["updated_at", "2016-08-26 17:43:43.101409"]]
+  [1m[35m (3.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Binary data inserted for `string` type on column `current_sign_in_ip`
+Binary data inserted for `string` type on column `last_sign_in_ip`
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "current_sign_in_at" = ?, "current_sign_in_ip" = ?, "last_sign_in_at" = ?, "last_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["current_sign_in_at", "2016-08-26 17:43:43.124350"], ["current_sign_in_ip", "127.0.0.1"], ["last_sign_in_at", "2016-08-26 17:43:43.124350"], ["last_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", "2016-08-26 17:43:43.125647"]]
+  [1m[36m (2.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts/new
+Completed 302 Found in 157ms (ActiveRecord: 11.6ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2016-08-26 23:13:43 +0530
+Processing by PostsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered posts/_form.html.erb (15.5ms)
+  Rendered posts/new.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 109ms (Views: 95.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-26 23:13:43 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-26 23:13:43 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-26 23:13:43 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-26 23:13:43 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-26 23:13:43 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-26 23:13:43 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-26 23:13:43 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-26 23:13:43 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-26 23:13:43 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-26 23:13:43 +0530
+
+
+Started POST "/posts" for 127.0.0.1 at 2016-08-26 23:14:07 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JxRm9NQHpivsFhUjW59hqWScLH/DfNPNsBVN9dSweQU=", "post"=>{"title"=>"First Post!", "body"=>"Hello World! hope this works"}, "commit"=>"Create Post"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Hello World! hope this works"], ["created_at", "2016-08-26 17:44:07.256168"], ["title", "First Post!"], ["updated_at", "2016-08-26 17:44:07.256168"]]
+  [1m[35m (2.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/posts/1
+Completed 302 Found in 8ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2016-08-26 23:14:07 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (4.7ms)[0m  [1mSELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (23.0ms)
+  Rendered posts/show.html.erb within layouts/application (80.7ms)
+Completed 200 OK in 171ms (Views: 163.8ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-26 23:14:07 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-26 23:14:07 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-26 23:14:07 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-26 23:14:07 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-26 23:14:07 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-26 23:14:07 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-26 23:14:07 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-26 23:14:07 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-26 23:14:07 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-26 23:14:07 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2016-08-26 23:14:21 +0530
+Processing by PostsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered posts/_form.html.erb (2.4ms)
+  Rendered posts/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 82ms (Views: 80.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-26 23:14:26 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 92ms (Views: 90.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2016-08-26 23:14:28 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (2.8ms)
+  Rendered posts/show.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 86ms (Views: 84.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-26 23:14:32 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 81ms (Views: 79.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2016-08-26 23:14:37 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (2.0ms)
+  Rendered posts/show.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 91ms (Views: 88.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-26 23:14:41 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (1.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 85ms (Views: 83.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-26 23:22:01 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (1.3ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (18.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 240ms (Views: 230.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-26 23:22:01 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-26 23:22:02 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-26 23:22:02 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-26 23:22:02 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-26 23:22:02 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-26 23:22:02 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-26 23:22:02 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-26 23:22:02 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-26 23:22:02 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-26 23:22:02 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-26 23:22:02 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-26 23:22:02 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-26 23:22:02 +0530
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2016-08-26 23:22:03 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (3.5ms)
+  Rendered posts/show.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 109ms (Views: 107.3ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/posts/1" for 127.0.0.1 at 2016-08-26 23:22:10 +0530
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"JxRm9NQHpivsFhUjW59hqWScLH/DfNPNsBVN9dSweQU=", "id"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "posts" WHERE "posts"."id" = ?  [["id", 1]]
+  [1m[36m (5.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 13ms (ActiveRecord: 6.2ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2016-08-26 23:22:10 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 97ms (Views: 96.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-26 23:22:10 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-26 23:22:10 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-26 23:22:10 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-26 23:22:10 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-26 23:22:10 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-26 23:22:10 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-26 23:22:10 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-26 23:22:10 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-26 23:22:10 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-26 23:22:10 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-26 23:22:10 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-26 23:22:10 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-26 23:22:10 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-26 23:22:12 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 84ms (Views: 82.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-26 23:23:10 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 102ms (Views: 101.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-26 23:23:11 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-26 23:23:11 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-26 23:23:11 +0530
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-26 23:23:11 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-26 23:23:11 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-26 23:23:11 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-26 23:23:11 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-26 23:23:11 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-26 23:23:11 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-26 23:23:11 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-26 23:23:11 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-26 23:23:11 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-26 23:23:11 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-26 23:23:11 +0530
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2016-08-26 23:23:11 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-26 23:23:34 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 86ms (Views: 84.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-26 23:23:34 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-26 23:23:34 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-26 23:23:34 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-26 23:23:34 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-26 23:23:34 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-26 23:23:34 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-26 23:23:34 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-26 23:23:34 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-26 23:23:34 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-26 23:23:34 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-26 23:23:34 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-26 23:23:34 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-26 23:23:34 +0530
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2016-08-26 23:23:35 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-26 23:54:44 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 121ms (Views: 119.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-26 23:54:44 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-26 23:54:44 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-26 23:54:44 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-26 23:54:44 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-26 23:54:44 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-26 23:54:44 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-26 23:54:44 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-26 23:54:44 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-26 23:54:44 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-26 23:54:44 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-26 23:54:44 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-26 23:54:44 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-26 23:54:44 +0530
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2016-08-26 23:54:45 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-26 23:55:05 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 91ms (Views: 89.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-26 23:55:05 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-26 23:55:05 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-26 23:55:05 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-26 23:55:05 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-26 23:55:05 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-26 23:55:05 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-26 23:55:05 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-26 23:55:05 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-26 23:55:05 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-26 23:55:05 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-26 23:55:05 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-26 23:55:05 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-26 23:55:05 +0530
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2016-08-26 23:55:05 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-26 23:55:21 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 93ms (Views: 92.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-26 23:55:23 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 94ms (Views: 92.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-26 23:55:24 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-26 23:55:24 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-26 23:55:24 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-26 23:55:24 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-26 23:55:24 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-26 23:55:24 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-26 23:55:24 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-26 23:55:24 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-26 23:55:24 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-26 23:55:24 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-26 23:55:24 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-26 23:55:24 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-26 23:55:24 +0530
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2016-08-26 23:55:24 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:04:48 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 105ms (Views: 104.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2016-08-27 00:04:50 +0530
+Processing by PostsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered posts/_form.html.erb (3.7ms)
+  Rendered posts/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 93ms (Views: 91.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:04:58 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (0.8ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 87ms (Views: 85.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2016-08-27 00:05:04 +0530
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 87ms (Views: 86.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/profile.jpeg" for 127.0.0.1 at 2016-08-27 00:05:04 +0530
+
+
+Started GET "/about" for 127.0.0.1 at 2016-08-27 00:06:29 +0530
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.7ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 97ms (Views: 96.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 00:06:29 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 00:06:29 +0530
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 00:06:29 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 00:06:29 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 00:06:29 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 00:06:29 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 00:06:29 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 00:06:29 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 00:06:29 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 00:06:29 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 00:06:29 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 00:06:29 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 00:06:29 +0530
+
+
+Started GET "/assets/profile.jpeg" for 127.0.0.1 at 2016-08-27 00:06:29 +0530
+
+
+Started GET "/assets/profile.jpeg" for 127.0.0.1 at 2016-08-27 00:06:29 +0530
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2016-08-27 00:06:29 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:06:31 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (1.3ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 91ms (Views: 89.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:15:58 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (7.8ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 231ms (Views: 222.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 00:15:59 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 00:15:59 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 00:15:59 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 00:15:59 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 00:15:59 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 00:15:59 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 00:15:59 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 00:15:59 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 00:15:59 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 00:15:59 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 00:15:59 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 00:15:59 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 00:15:59 +0530
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2016-08-27 00:15:59 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:17:09 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 109ms (Views: 108.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 00:17:10 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 00:17:10 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 00:17:10 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 00:17:10 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 00:17:10 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 00:17:10 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 00:17:10 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 00:17:10 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 00:17:10 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 00:17:10 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 00:17:10 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 00:17:10 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 00:17:10 +0530
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2016-08-27 00:17:10 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:17:20 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 96ms (Views: 94.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 00:17:20 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 00:17:20 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 00:17:20 +0530
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 00:17:20 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 00:17:20 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 00:17:20 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 00:17:20 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 00:17:20 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 00:17:20 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 00:17:20 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 00:17:20 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 00:17:20 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 00:17:20 +0530
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2016-08-27 00:17:20 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:17:21 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 79ms (Views: 77.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:25:39 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (0.8ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 110ms (Views: 108.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 00:25:39 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 00:25:39 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 00:25:39 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 00:25:39 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 00:25:39 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 00:25:39 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 00:25:39 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 00:25:39 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 00:25:39 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 00:25:39 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 00:25:39 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 00:25:39 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 00:25:39 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:26:00 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (0.8ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 97ms (Views: 95.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:26:01 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 97ms (Views: 95.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:26:02 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 105ms (Views: 103.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:26:02 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 90ms (Views: 89.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:26:03 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 79ms (Views: 78.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:26:03 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 91ms (Views: 90.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:26:04 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (1.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 97ms (Views: 95.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:26:06 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 90ms (Views: 88.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:26:07 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 94ms (Views: 93.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:27:38 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (0.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 115ms (Views: 113.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 00:27:38 +0530
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 00:27:38 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 00:27:38 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 00:27:38 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 00:27:38 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 00:27:38 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 00:27:38 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 00:27:38 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 00:27:38 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 00:27:38 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 00:27:38 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 00:27:38 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 00:27:38 +0530
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2016-08-27 00:27:39 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:29:20 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (0.8ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 118ms (Views: 116.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 00:29:21 +0530
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 00:29:21 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 00:29:21 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 00:29:21 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 00:29:21 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 00:29:21 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 00:29:21 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 00:29:21 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 00:29:21 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 00:29:21 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 00:29:21 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 00:29:21 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 00:29:21 +0530
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2016-08-27 00:29:21 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:29:23 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 80ms (Views: 79.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:29:28 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 122ms (Views: 119.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 00:29:28 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 00:29:28 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 00:29:28 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 00:29:28 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 00:29:28 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 00:29:28 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 00:29:28 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 00:29:28 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 00:29:28 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 00:29:28 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 00:29:28 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 00:29:28 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 00:29:28 +0530
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2016-08-27 00:29:28 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:29:30 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (0.8ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 74ms (Views: 72.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:29:30 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (1.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 64ms (Views: 62.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:29:30 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (0.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 98ms (Views: 96.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:29:31 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (0.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 74ms (Views: 72.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:29:51 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 78ms (Views: 76.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:34:50 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (0.8ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 134ms (Views: 132.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 00:34:50 +0530
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 00:34:50 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 00:34:50 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 00:34:50 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 00:34:50 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 00:34:50 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 00:34:50 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 00:34:50 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 00:34:50 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 00:34:50 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 00:34:50 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 00:34:50 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 00:34:50 +0530
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2016-08-27 00:34:50 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:34:54 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 73ms (Views: 72.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2016-08-27 00:34:56 +0530
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 73ms (Views: 72.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/profile.jpeg" for 127.0.0.1 at 2016-08-27 00:34:56 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:34:57 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 150ms (Views: 148.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:36:25 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 114ms (Views: 113.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 00:36:26 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 00:36:26 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 00:36:26 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 00:36:26 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 00:36:26 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 00:36:26 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 00:36:26 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 00:36:26 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 00:36:26 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 00:36:26 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 00:36:26 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 00:36:26 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 00:36:26 +0530
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2016-08-27 00:36:26 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:38:36 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 103ms (Views: 101.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 00:38:36 +0530
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 00:38:36 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 00:38:36 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 00:38:36 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 00:38:36 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 00:38:36 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 00:38:36 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 00:38:36 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 00:38:36 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 00:38:36 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 00:38:36 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 00:38:36 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 00:38:36 +0530
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2016-08-27 00:38:36 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:38:49 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 109ms (Views: 104.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2016-08-27 00:38:51 +0530
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 83ms (Views: 82.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/profile.jpeg" for 127.0.0.1 at 2016-08-27 00:38:51 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:38:52 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 72ms (Views: 70.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2016-08-27 00:38:56 +0530
+Processing by PostsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered posts/_form.html.erb (2.9ms)
+  Rendered posts/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 94ms (Views: 92.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 00:39:05 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 84ms (Views: 82.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 15:54:32 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (2.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (2.5ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (7.8ms)
+  [1m[36mUser Load (2.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 343ms (Views: 303.1ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 15:54:32 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 15:54:32 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 15:54:32 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 15:54:32 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 15:54:32 +0530
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 15:54:32 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 15:54:32 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 15:54:32 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 15:54:32 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 15:54:32 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 15:54:32 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 15:54:32 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 15:54:32 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 15:59:36 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 98ms (Views: 96.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 15:59:36 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 15:59:36 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 15:59:36 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 15:59:36 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 15:59:36 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 15:59:36 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 15:59:36 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 15:59:36 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 15:59:36 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 15:59:36 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 15:59:36 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 15:59:36 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 15:59:36 +0530
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2016-08-27 15:59:36 +0530
+
+
+Started GET "/about" for 127.0.0.1 at 2016-08-27 15:59:38 +0530
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (8.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 90ms (Views: 89.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/profile.jpeg" for 127.0.0.1 at 2016-08-27 15:59:38 +0530
+
+ActionController::RoutingError (No route matches [GET] "/images/profile.jpeg"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.5ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (19.0ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (68.2ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2016-08-27 16:01:30 +0530
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (12.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 108ms (Views: 107.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 16:01:30 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 16:01:30 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 16:01:30 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 16:01:30 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 16:01:30 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 16:01:30 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 16:01:30 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 16:01:30 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 16:01:30 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 16:01:30 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 16:01:30 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 16:01:30 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 16:01:30 +0530
+
+
+Started GET "/images/profile.jpeg" for 127.0.0.1 at 2016-08-27 16:01:30 +0530
+
+ActionController::RoutingError (No route matches [GET] "/images/profile.jpeg"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.1ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (38.6ms)
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2016-08-27 16:01:30 +0530
+
+
+Started GET "/about" for 127.0.0.1 at 2016-08-27 16:01:32 +0530
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (6.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 91ms (Views: 90.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 16:01:33 +0530
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 16:01:33 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 16:01:33 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 16:01:33 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 16:01:33 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 16:01:33 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 16:01:33 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 16:01:33 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 16:01:33 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 16:01:33 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 16:01:33 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 16:01:33 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 16:01:33 +0530
+
+
+Started GET "/images/profile.jpeg" for 127.0.0.1 at 2016-08-27 16:01:33 +0530
+
+ActionController::RoutingError (No route matches [GET] "/images/profile.jpeg"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.6ms)
+
+
+Started GET "/images/profile.jpeg" for 127.0.0.1 at 2016-08-27 16:01:33 +0530
+
+ActionController::RoutingError (No route matches [GET] "/images/profile.jpeg"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (36.2ms)
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2016-08-27 16:01:33 +0530
+
+
+Started GET "/about" for 127.0.0.1 at 2016-08-27 16:01:47 +0530
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (11.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 116ms (Views: 114.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 16:01:47 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 16:01:47 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 16:01:47 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 16:01:47 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 16:01:47 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 16:01:47 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 16:01:47 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 16:01:47 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 16:01:47 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 16:01:47 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 16:01:47 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 16:01:47 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 16:01:47 +0530
+
+
+Started GET "/images/profile.jpeg" for 127.0.0.1 at 2016-08-27 16:01:47 +0530
+
+ActionController::RoutingError (No route matches [GET] "/images/profile.jpeg"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.3ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.1ms)
+
+
+Started GET "/images/profile.jpeg" for 127.0.0.1 at 2016-08-27 16:01:47 +0530
+
+ActionController::RoutingError (No route matches [GET] "/images/profile.jpeg"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.2ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (33.6ms)
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2016-08-27 16:01:48 +0530
+
+
+Started GET "/about" for 127.0.0.1 at 2016-08-27 16:02:08 +0530
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (2.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 90ms (Views: 89.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 16:02:08 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 16:02:08 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 16:02:08 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 16:02:08 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 16:02:08 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 16:02:08 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 16:02:08 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 16:02:08 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 16:02:08 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 16:02:08 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 16:02:08 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 16:02:08 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 16:02:08 +0530
+
+
+Started GET "/assets/Profile.jpg" for 127.0.0.1 at 2016-08-27 16:02:08 +0530
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2016-08-27 16:02:08 +0530
+
+
+Started GET "/about" for 127.0.0.1 at 2016-08-27 16:02:51 +0530
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 87ms (Views: 86.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 16:02:52 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 93ms (Views: 91.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2016-08-27 16:03:09 +0530
+Processing by PostsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered posts/_form.html.erb (53.2ms)
+  Rendered posts/new.html.erb within layouts/application (57.3ms)
+Completed 200 OK in 158ms (Views: 147.4ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2016-08-27 16:03:48 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JxRm9NQHpivsFhUjW59hqWScLH/DfNPNsBVN9dSweQU=", "post"=>{"title"=>"First Post!", "body"=>"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At iam decimum annum in spelunca iacet. Sed tamen intellego quid velit. Indicant pueri, in quibus ut in speculis natura cernitur. Cupiditates non Epicuri divisione finiebat, sed sua satietate. Si qua in iis corrigere voluit, deteriora fecit. Duo Reges: constructio interrete. Satisne ergo pudori consulat, si quis sine teste libidini pareat? An vero displicuit ea, quae tributa est animi virtutibus tanta praestantia? Summum ením bonum exposuit vacuitatem doloris; Nullus est igitur cuiusquam dies natalis. </p>  <p>Aliter homines, aliter philosophos loqui putas oportere? Beatus sibi videtur esse moriens. Dicimus aliquem hilare vivere; Quia dolori non voluptas contraria est, sed doloris privatio. </p>  <p>Eodem modo is enim tibi nemo dabit, quod, expetendum sit, id esse laudabile. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quasi ego id curem, quid ille aiat aut neget. Qua ex cognitione facilior facta est investigatio rerum occultissimarum. </p>  <p>Ne amores quidem sanctos a sapiente alienos esse arbitrantur. Ab hoc autem quaedam non melius quam veteres, quaedam omnino relicta. Quo modo autem philosophus loquitur? His singulis copiose responderi solet, sed quae perspicua sunt longa esse non debent. Eorum enim est haec querela, qui sibi cari sunt seseque diligunt. Teneo, inquit, finem illi videri nihil dolere. Dici enim nihil potest verius. Quod autem satis est, eo quicquid accessit, nimium est; Ergo instituto veterum, quo etiam Stoici utuntur, hinc capiamus exordium. Quis suae urbis conservatorem Codrum, quis Erechthei filias non maxime laudat? An me, inquis, tam amentem putas, ut apud imperitos isto modo loquar? </p>  <p>Quam tu ponis in verbis, ego positam in re putabam. Idemque diviserunt naturam hominis in animum et corpus. Negat enim summo bono afferre incrementum diem. Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Qui non moveatur et offensione turpitudinis et comprobatione honestatis? Vide, ne etiam menses! nisi forte eum dicis, qui, simul atque arripuit, interficit. Quorum sine causa fieri nihil putandum est. At enim sequor utilitatem. </p>"}, "commit"=>"Create Post"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (2.8ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At iam decimum annum in spelunca iacet. Sed tamen intellego quid velit. Indicant pueri, in quibus ut in speculis natura cernitur. Cupiditates non Epicuri divisione finiebat, sed sua satietate. Si qua in iis corrigere voluit, deteriora fecit. Duo Reges: constructio interrete. Satisne ergo pudori consulat, si quis sine teste libidini pareat? An vero displicuit ea, quae tributa est animi virtutibus tanta praestantia? Summum ením bonum exposuit vacuitatem doloris; Nullus est igitur cuiusquam dies natalis. </p>  <p>Aliter homines, aliter philosophos loqui putas oportere? Beatus sibi videtur esse moriens. Dicimus aliquem hilare vivere; Quia dolori non voluptas contraria est, sed doloris privatio. </p>  <p>Eodem modo is enim tibi nemo dabit, quod, expetendum sit, id esse laudabile. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quasi ego id curem, quid ille aiat aut neget. Qua ex cognitione facilior facta est investigatio rerum occultissimarum. </p>  <p>Ne amores quidem sanctos a sapiente alienos esse arbitrantur. Ab hoc autem quaedam non melius quam veteres, quaedam omnino relicta. Quo modo autem philosophus loquitur? His singulis copiose responderi solet, sed quae perspicua sunt longa esse non debent. Eorum enim est haec querela, qui sibi cari sunt seseque diligunt. Teneo, inquit, finem illi videri nihil dolere. Dici enim nihil potest verius. Quod autem satis est, eo quicquid accessit, nimium est; Ergo instituto veterum, quo etiam Stoici utuntur, hinc capiamus exordium. Quis suae urbis conservatorem Codrum, quis Erechthei filias non maxime laudat? An me, inquis, tam amentem putas, ut apud imperitos isto modo loquar? </p>  <p>Quam tu ponis in verbis, ego positam in re putabam. Idemque diviserunt naturam hominis in animum et corpus. Negat enim summo bono afferre incrementum diem. Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Qui non moveatur et offensione turpitudinis et comprobatione honestatis? Vide, ne etiam menses! nisi forte eum dicis, qui, simul atque arripuit, interficit. Quorum sine causa fieri nihil putandum est. At enim sequor utilitatem. </p>"], ["created_at", "2016-08-27 10:33:48.863885"], ["title", "First Post!"], ["updated_at", "2016-08-27 10:33:48.863885"]]
+  [1m[35m (2.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/posts/2
+Completed 302 Found in 22ms (ActiveRecord: 5.8ms)
+
+
+Started GET "/posts/2" for 127.0.0.1 at 2016-08-27 16:03:48 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (2.3ms)[0m  [1mSELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 2]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 2]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (22.5ms)
+  Rendered posts/show.html.erb within layouts/application (83.8ms)
+Completed 200 OK in 187ms (Views: 180.8ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 16:03:49 +0530
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 16:03:49 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 16:03:49 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 16:03:49 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 16:03:49 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 16:03:49 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 16:03:49 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 16:03:49 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 16:03:49 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 16:03:49 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 16:03:49 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 16:03:49 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 16:03:49 +0530
+
+
+Started GET "/posts/2/edit" for 127.0.0.1 at 2016-08-27 16:03:56 +0530
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered posts/_form.html.erb (2.5ms)
+  Rendered posts/edit.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 91ms (Views: 88.4ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/posts/2" for 127.0.0.1 at 2016-08-27 16:04:48 +0530
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JxRm9NQHpivsFhUjW59hqWScLH/DfNPNsBVN9dSweQU=", "post"=>{"title"=>"First Post!", "body"=>"Lorem ipsum dolor sit amet, copiosae menandri adipiscing per no, et discere feugiat vix, erant consulatu consequat has in. Quo fugit percipit instructior in, tantas consectetuer an nam. Sint tota accusamus cum no, nam mundi debitis invenire an. Sea molestie scribentur ne. Aliquid scriptorem concludaturque et vis. Ne nam vero eruditi invidunt, nec numquam probatus te.  Ex vim facete recteque qualisque, meis adolescens adipiscing et quo. Duo regione nonumes nominati eu. His id harum solet praesent. Te vix nibh quidam, eum atqui fabulas laboramus ad. Essent iracundia mei cu, pro no veniam tractatos. In iuvaret lucilius urbanitas est, doming fuisset ius eu.  Cu sit facer ceteros consetetur. Ne eam quidam melius audire, no detraxit pertinacia has. Mea quidam abhorreant ut. An nam prima tempor, at vis quando tempor, eos ex debet graeco consulatu. Has in perpetua partiendo definiebas.  Iisque prompta labores usu ad, modus efficiantur usu cu, sit praesent convenire instructior ea. Mel ei enim stet, pri ad sint elit assum, ius persius definiebas id. Qui erat graecis antiopam ne, at nec nostro euismod luptatum. Hinc equidem at nam, atqui essent abhorreant eu quo. Ei iudicabit euripidis maiestatis eam, vim vide principes similique at. Eos stet deseruisse ne.  Salutandi laboramus vituperata duo eu. Duo duis fugit ponderum ad. No mel soleat animal electram, no quo altera saperet scriptorem. Erat aperiam persequeris at sea, eu magna affert sit.  Iusto posidonium ea has. Sed an facilisis complectitur, ubique fabulas voluptaria pri an, habeo augue placerat mei in. Vel ei novum ludus, vocibus pertinacia vituperatoribus in pro. Sea facete fabulas tacimates at, vix mazim dicant eu, error graeco convenire te quo.  Id eum solet euismod invenire, has ex case dictas vivendo. Nam eius dissentiet id, everti accusamus liberavisse mei ei, altera nonumes omnesque sit an. Eos feugait epicuri sadipscing ut, usu fierent mandamus maluisset at, dicunt intellegebat ut eum. Option feugait quo in. Vel sonet postulant aliquando in, per cu error clita luptatum.  Et ullum partem pro. Eu vis simul placerat appellantur, eos et exerci fabulas dignissim. Vix quodsi appetere ex, ne vim impedit propriae delicatissimi. Eos summo nulla disputationi an, eos in sumo copiosae sadipscing. In vis invenire atomorum. Audiam verear cum id. Impedit nominati an mea, mea in saperet offendit ponderum.  Ex perpetua oportere nam. Nostrud nominati pri te, ea vel dicit adversarium. Nam lorem regione intellegam no, error option sed ei. Sed persecuti vituperata no, te vis vocibus erroribus.  Ex meis dicta tamquam quo, maiorum democritum delicatissimi ad nec. Utinam graece mentitum est eu, vis clita lucilius no, per noluisse pertinax cu. Vero delicatissimi vel te, equidem persequeris comprehensam ne pro. Inimicus assentior vis ei. Cu sea nisl feugiat insolens, cu nec affert audiam. Eum dicta possim an, ne solet aliquid placerat vel, saepe posidonium qui ex."}, "commit"=>"Update Post", "id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "posts" SET "body" = ?, "updated_at" = ? WHERE "posts"."id" = 2  [["body", "Lorem ipsum dolor sit amet, copiosae menandri adipiscing per no, et discere feugiat vix, erant consulatu consequat has in. Quo fugit percipit instructior in, tantas consectetuer an nam. Sint tota accusamus cum no, nam mundi debitis invenire an. Sea molestie scribentur ne. Aliquid scriptorem concludaturque et vis. Ne nam vero eruditi invidunt, nec numquam probatus te.  Ex vim facete recteque qualisque, meis adolescens adipiscing et quo. Duo regione nonumes nominati eu. His id harum solet praesent. Te vix nibh quidam, eum atqui fabulas laboramus ad. Essent iracundia mei cu, pro no veniam tractatos. In iuvaret lucilius urbanitas est, doming fuisset ius eu.  Cu sit facer ceteros consetetur. Ne eam quidam melius audire, no detraxit pertinacia has. Mea quidam abhorreant ut. An nam prima tempor, at vis quando tempor, eos ex debet graeco consulatu. Has in perpetua partiendo definiebas.  Iisque prompta labores usu ad, modus efficiantur usu cu, sit praesent convenire instructior ea. Mel ei enim stet, pri ad sint elit assum, ius persius definiebas id. Qui erat graecis antiopam ne, at nec nostro euismod luptatum. Hinc equidem at nam, atqui essent abhorreant eu quo. Ei iudicabit euripidis maiestatis eam, vim vide principes similique at. Eos stet deseruisse ne.  Salutandi laboramus vituperata duo eu. Duo duis fugit ponderum ad. No mel soleat animal electram, no quo altera saperet scriptorem. Erat aperiam persequeris at sea, eu magna affert sit.  Iusto posidonium ea has. Sed an facilisis complectitur, ubique fabulas voluptaria pri an, habeo augue placerat mei in. Vel ei novum ludus, vocibus pertinacia vituperatoribus in pro. Sea facete fabulas tacimates at, vix mazim dicant eu, error graeco convenire te quo.  Id eum solet euismod invenire, has ex case dictas vivendo. Nam eius dissentiet id, everti accusamus liberavisse mei ei, altera nonumes omnesque sit an. Eos feugait epicuri sadipscing ut, usu fierent mandamus maluisset at, dicunt intellegebat ut eum. Option feugait quo in. Vel sonet postulant aliquando in, per cu error clita luptatum.  Et ullum partem pro. Eu vis simul placerat appellantur, eos et exerci fabulas dignissim. Vix quodsi appetere ex, ne vim impedit propriae delicatissimi. Eos summo nulla disputationi an, eos in sumo copiosae sadipscing. In vis invenire atomorum. Audiam verear cum id. Impedit nominati an mea, mea in saperet offendit ponderum.  Ex perpetua oportere nam. Nostrud nominati pri te, ea vel dicit adversarium. Nam lorem regione intellegam no, error option sed ei. Sed persecuti vituperata no, te vis vocibus erroribus.  Ex meis dicta tamquam quo, maiorum democritum delicatissimi ad nec. Utinam graece mentitum est eu, vis clita lucilius no, per noluisse pertinax cu. Vero delicatissimi vel te, equidem persequeris comprehensam ne pro. Inimicus assentior vis ei. Cu sea nisl feugiat insolens, cu nec affert audiam. Eum dicta possim an, ne solet aliquid placerat vel, saepe posidonium qui ex."], ["updated_at", "2016-08-27 10:34:48.643412"]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts/2
+Completed 302 Found in 11ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/posts/2" for 127.0.0.1 at 2016-08-27 16:04:48 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 2]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 2]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (2.3ms)
+  Rendered posts/show.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 99ms (Views: 97.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 16:04:48 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 16:04:48 +0530
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 16:04:48 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 16:04:48 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 16:04:48 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 16:04:48 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 16:04:48 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 16:04:48 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 16:04:48 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 16:04:48 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 16:04:48 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 16:04:48 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 16:04:48 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 16:04:56 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 81ms (Views: 80.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2016-08-27 16:05:01 +0530
+Processing by PostsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered posts/_form.html.erb (2.8ms)
+  Rendered posts/new.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 97ms (Views: 94.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 16:05:13 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 82ms (Views: 80.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2016-08-27 16:05:24 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (1.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 84ms (Views: 82.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 16:05:25 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 16:05:25 +0530
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 16:05:25 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 16:05:25 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 16:05:25 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 16:05:25 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 16:05:25 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 16:05:25 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 16:05:25 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 16:05:25 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 16:05:25 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 16:05:25 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 16:05:25 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 16:05:26 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (1.8ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 82ms (Views: 80.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2016-08-27 16:05:37 +0530
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 90ms (Views: 89.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/Profile.jpg" for 127.0.0.1 at 2016-08-27 16:05:37 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 16:05:54 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 93ms (Views: 92.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2016-08-27 16:09:50 +0530
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.7ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 89ms (Views: 88.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 16:09:51 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (1.7ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 84ms (Views: 82.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 16:10:00 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 16:10:00 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 16:10:00 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 16:10:00 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 16:10:00 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 16:17:32 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (1.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 103ms (Views: 101.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 16:17:32 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 16:17:32 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 16:17:32 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 16:17:32 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 16:17:32 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 16:17:32 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 16:17:32 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 16:17:32 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 16:17:32 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 16:17:32 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 16:17:32 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 16:17:32 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 16:17:32 +0530
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2016-08-27 16:17:32 +0530
+
+
+Started GET "/logout" for 127.0.0.1 at 2016-08-27 16:17:43 +0530
+
+ActionController::RoutingError (No route matches [GET] "/logout"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.6ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.6ms)
+
+
+Started GET "/delete" for 127.0.0.1 at 2016-08-27 16:17:53 +0530
+
+ActionController::RoutingError (No route matches [GET] "/delete"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.6ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.1ms)
+
+
+Started GET "/ne" for 127.0.0.1 at 2016-08-27 16:18:00 +0530
+
+ActionController::RoutingError (No route matches [GET] "/ne"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.5ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 16:18:08 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (1.9ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 106ms (Views: 104.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 16:18:08 +0530
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 16:18:08 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 16:18:08 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 16:18:08 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 16:18:08 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 16:18:08 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 16:18:08 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 16:18:08 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 16:18:08 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 16:18:08 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 16:18:08 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 16:18:08 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 16:18:08 +0530
+
+
+Started GET "/new" for 127.0.0.1 at 2016-08-27 16:18:10 +0530
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/gajeshbhat/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/gajeshbhat/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 16:18:14 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (1.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 98ms (Views: 96.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 16:18:14 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 16:18:14 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 16:18:14 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 16:18:14 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 16:18:14 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 16:18:14 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 16:18:14 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 16:18:14 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 16:18:14 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 16:18:14 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 16:18:14 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 16:18:14 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 16:18:14 +0530
+
+
+Started GET "/posts/2" for 127.0.0.1 at 2016-08-27 16:18:23 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 2]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 2]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (3.2ms)
+  Rendered posts/show.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 100ms (Views: 98.1ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/posts/2" for 127.0.0.1 at 2016-08-27 16:18:30 +0530
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"JxRm9NQHpivsFhUjW59hqWScLH/DfNPNsBVN9dSweQU=", "id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mPost Load (0.3ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 2]]
+  [1m[36mSQL (1.6ms)[0m  [1mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 2]]
+  [1m[35m (2.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 12ms (ActiveRecord: 4.8ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2016-08-27 16:18:30 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 92ms (Views: 90.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 16:18:30 +0530
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 16:18:30 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 16:18:30 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 16:18:30 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 16:18:30 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 16:18:30 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 16:18:30 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 16:18:30 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 16:18:30 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 16:18:30 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 16:18:30 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 16:18:30 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 16:18:30 +0530
+
+
+Started GET "/about" for 127.0.0.1 at 2016-08-27 16:19:09 +0530
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 91ms (Views: 90.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/Profile.jpg" for 127.0.0.1 at 2016-08-27 16:19:10 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 16:19:12 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 78ms (Views: 77.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2016-08-27 16:19:14 +0530
+Processing by PostsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered posts/_form.html.erb (3.0ms)
+  Rendered posts/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 97ms (Views: 95.3ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2016-08-27 16:20:26 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JxRm9NQHpivsFhUjW59hqWScLH/DfNPNsBVN9dSweQU=", "post"=>{"title"=>"First Post!", "body"=>"Lorem ipsum dolor sit amet, ne pro adhuc harum neglegentur, vivendum repudiare mei id. Nullam latine reformidans mei ea, cu vim idque alterum ocurreret, ei usu evertitur adolescens quaerendum. Lorem audiam forensibus quo cu, ea enim noluisse accommodare cum. Esse copiosae mel id. Ne pri movet voluptua vituperata.  Essent deserunt usu et, duis mediocrem theophrastus eum in. Ei cum libris deterruisset, duo iisque deseruisse no. Nostrum scribentur comprehensam cu duo, ne dicam utroque eos. Dictas laoreet assentior mel ne. Ius eu summo percipit ullamcorper. Legendos disputationi vix at, ut habeo impedit constituam mei.  Deseruisse necessitatibus his id, dicunt petentium dissentiunt eu eam. Mollis iudicabit elaboraret his ne. Odio partem ne has, ad est ignota adolescens definitiones, delicata consetetur sed ei. No modo legimus maiorum quo, putant omnium diceret est ut. An vim magna dolorem copiosae, ne modo mediocritatem vis.  Et copiosae officiis duo, te mea quodsi cetero. Clita nostro assueverit usu ad, no liberavisse definitionem vix, euismod comprehensam eam in. His cu munere propriae definiebas. Elitr zril rationibus no sit. Ius agam modus bonorum ea, perfecto intellegat deterruisset mei te, placerat singulis his id.  Mea ei dicat aliquip, ei vim omnes scripserit cotidieque, sit sale verear ex. Ipsum epicurei cum ea, per habeo nusquam eu. Tale vitae commune per et, an eos illud accumsan abhorreant, eu insolens sadipscing has. Invidunt electram eu vim, has an novum commodo. At malis platonem gubergren vim, sea falli conceptam ad. In sed justo etiam, vis no aeque pertinax postulant, pri id modo homero argumentum. Per ei error ubique, an facer explicari sea.  Sit id nobis eligendi, nec aperiam qualisque ne. Cu hinc dicat everti nam, at diam agam maiestatis pro, tempor audire expetenda an usu. Sit ad aliquip interesset, homero iriure noluisse pri ea. Mea eu vitae patrioque percipitur, qui et sanctus moderatius. Ea pri ferri accusam, in summo scaevola nominati eos, mei at maluisset scribentur.  Illum tritani labores vel ne, duo fabulas facilis singulis ei. Inani percipit philosophia ex eos, an nec falli mazim ludus. Vel cu euismod expetendis intellegam. Et veniam accommodare mei, debitis singulis eum eu, in omnes erroribus mea. Vim quas constituto referrentur et, magna mazim iracundia at vix. His ea mazim facete, qui in integre voluptatum honestatis.  Usu id odio eius option. Mel mundi graeci detraxit id, in vis bonorum debitis, errem viris inermis ei per. Vix duis scribentur cu, et assum moderatius argumentum est. Deserunt petentium pertinacia et his, graece admodum sed ei. At quo causae prompta bonorum, eu nec meis volumus deserunt.  Ex his nulla adipisci, eum semper indoctum id. Ea eripuit docendi patrioque per, at tritani copiosae per. In saepe corpora sea. Has cu mutat consetetur, scripta verterem usu ex.  Pri porro minim signiferumque cu, at nam adipisci laboramus. Eirmod viderer neglegentur mea id. At error tempor tibique nec, erat eruditi intellegebat ex qui. Te quo porro admodum, vitae delenit intellegam id pro."}, "commit"=>"Create Post"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Lorem ipsum dolor sit amet, ne pro adhuc harum neglegentur, vivendum repudiare mei id. Nullam latine reformidans mei ea, cu vim idque alterum ocurreret, ei usu evertitur adolescens quaerendum. Lorem audiam forensibus quo cu, ea enim noluisse accommodare cum. Esse copiosae mel id. Ne pri movet voluptua vituperata.  Essent deserunt usu et, duis mediocrem theophrastus eum in. Ei cum libris deterruisset, duo iisque deseruisse no. Nostrum scribentur comprehensam cu duo, ne dicam utroque eos. Dictas laoreet assentior mel ne. Ius eu summo percipit ullamcorper. Legendos disputationi vix at, ut habeo impedit constituam mei.  Deseruisse necessitatibus his id, dicunt petentium dissentiunt eu eam. Mollis iudicabit elaboraret his ne. Odio partem ne has, ad est ignota adolescens definitiones, delicata consetetur sed ei. No modo legimus maiorum quo, putant omnium diceret est ut. An vim magna dolorem copiosae, ne modo mediocritatem vis.  Et copiosae officiis duo, te mea quodsi cetero. Clita nostro assueverit usu ad, no liberavisse definitionem vix, euismod comprehensam eam in. His cu munere propriae definiebas. Elitr zril rationibus no sit. Ius agam modus bonorum ea, perfecto intellegat deterruisset mei te, placerat singulis his id.  Mea ei dicat aliquip, ei vim omnes scripserit cotidieque, sit sale verear ex. Ipsum epicurei cum ea, per habeo nusquam eu. Tale vitae commune per et, an eos illud accumsan abhorreant, eu insolens sadipscing has. Invidunt electram eu vim, has an novum commodo. At malis platonem gubergren vim, sea falli conceptam ad. In sed justo etiam, vis no aeque pertinax postulant, pri id modo homero argumentum. Per ei error ubique, an facer explicari sea.  Sit id nobis eligendi, nec aperiam qualisque ne. Cu hinc dicat everti nam, at diam agam maiestatis pro, tempor audire expetenda an usu. Sit ad aliquip interesset, homero iriure noluisse pri ea. Mea eu vitae patrioque percipitur, qui et sanctus moderatius. Ea pri ferri accusam, in summo scaevola nominati eos, mei at maluisset scribentur.  Illum tritani labores vel ne, duo fabulas facilis singulis ei. Inani percipit philosophia ex eos, an nec falli mazim ludus. Vel cu euismod expetendis intellegam. Et veniam accommodare mei, debitis singulis eum eu, in omnes erroribus mea. Vim quas constituto referrentur et, magna mazim iracundia at vix. His ea mazim facete, qui in integre voluptatum honestatis.  Usu id odio eius option. Mel mundi graeci detraxit id, in vis bonorum debitis, errem viris inermis ei per. Vix duis scribentur cu, et assum moderatius argumentum est. Deserunt petentium pertinacia et his, graece admodum sed ei. At quo causae prompta bonorum, eu nec meis volumus deserunt.  Ex his nulla adipisci, eum semper indoctum id. Ea eripuit docendi patrioque per, at tritani copiosae per. In saepe corpora sea. Has cu mutat consetetur, scripta verterem usu ex.  Pri porro minim signiferumque cu, at nam adipisci laboramus. Eirmod viderer neglegentur mea id. At error tempor tibique nec, erat eruditi intellegebat ex qui. Te quo porro admodum, vitae delenit intellegam id pro."], ["created_at", "2016-08-27 10:50:26.792453"], ["title", "First Post!"], ["updated_at", "2016-08-27 10:50:26.792453"]]
+  [1m[35m (2.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/posts/3
+Completed 302 Found in 8ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/posts/3" for 127.0.0.1 at 2016-08-27 16:20:26 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 3]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 3]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (2.9ms)
+  Rendered posts/show.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 119ms (Views: 117.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 16:20:27 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 16:20:27 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 16:20:27 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 16:20:27 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 16:20:27 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 16:20:27 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 16:20:27 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 16:20:27 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 16:20:27 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 16:20:27 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 16:20:27 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 16:20:27 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 16:20:27 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 16:20:34 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (1.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 82ms (Views: 80.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2016-08-27 16:20:38 +0530
+Processing by PostsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered posts/_form.html.erb (2.0ms)
+  Rendered posts/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 83ms (Views: 81.8ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2016-08-27 16:22:10 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JxRm9NQHpivsFhUjW59hqWScLH/DfNPNsBVN9dSweQU=", "post"=>{"title"=>"The Open Window", "body"=>"The Open Window is a Classic Story. Let us enjoy reading this one.   \"MY aunt will be down presently, Mr. Nuttel,\" said a very self-possessed young lady of fifteen; \"in the meantime you must try and put up with me.\"   Framton Nuttel endeavoured to say the correct something which should duly flatter the niece of the moment without unduly discounting the aunt that was to come. Privately he doubted more than ever whether these formal visits on a succession of total strangers would do much towards helping the nerve cure which he was supposed to be undergoing.   \"I know how it will be,\" his sister had said when he was preparing to migrate to this rural retreat; \"you will bury yourself down there and not speak to a living soul, and your nerves will be worse than ever from moping. I shall just give you letters of introduction to all the people I know there. Some of them, as far as I can remember, were quite nice.\"   Framton wondered whether Mrs. Sappleton, the lady to whom he was presenting one of the letters of introduction, came into the nice division.   \"Do you know many of the people round here?\" asked the niece, when she judged that they had had sufficient silent communion.   \"Hardly a soul,\" said Framton. \"My sister was staying here, at the rectory, you know, some four years ago, and she gave me letters of introduction to some of the people here.\"   He made the last statement in a tone of distinct regret.   \"Then you know practically nothing about my aunt?\" pursued the self-possessed young lady.   \"Only her name and address,\" admitted the caller. He was wondering whether Mrs. Sappleton was in the married or widowed state. An undefinable something about the room seemed to suggest masculine habitation. \"Her great tragedy happened just three years ago,\" said the child; \"that would be since your sister's time.\"   \"Her tragedy?\" asked Framton; somehow in this restful country spot tragedies seemed out of place.   \"You may wonder why we keep that window wide open on an October afternoon,\" said the niece, indicating a large French window that opened on to a lawn.   \"It is quite warm for the time of the year,\" said Framton; \"but has that window got anything to do with the tragedy?\"   \"Out through that window, three years ago to a day, her husband and her two young brothers went off for their day's shooting. They never came back. In crossing the moor to their favourite snipe-shooting ground they were all three engulfed in a treacherous piece of bog. It had been that dreadful wet summer, you know, and places that were safe in other years gave way suddenly without warning. Their bodies were never recovered. That was the dreadful part of it.\" Here the child's voice lost its self-possessed note and became falteringly human. \"Poor aunt always thinks that they will come back some day, they and the little brown spaniel that was lost with them, and walk in at that window just as they used to do. That is why the window is kept open every evening till it is quite dusk. Poor dear aunt, she has often told me how they went out, her husband with his white waterproof coat over his arm, and Ronnie, her youngest brother, singing 'Bertie, why do you bound?' as he always did to tease her, because she said it got on her nerves. Do you know, sometimes on still, quiet evenings like this, I almost get a creepy feeling that they will all walk in through that window—\"  She broke off with a little shudder. It was a relief to Framton when the aunt bustled into the room with a whirl of apologies for being late in making her appearance.   \"I hope Vera has been amusing you?\" she said.   \"She has been very interesting,\" said Framton.   \"I hope you don't mind the open window,\" said Mrs. Sappleton briskly; \"my husband and brothers will be home directly from shooting, and they always come in this way. They've been out for snipe in the marshes to-day, so they'll make a fine mess over my poor carpets. So like you men-folk, isn't it?\"   She rattled on cheerfully about the shooting and the scarcity of birds, and the prospects for duck in the winter. To Framton it was all purely horrible. He made a desperate but only partially successful effort to turn the talk on to a less ghastly topic; he was conscious that his hostess was giving him only a fragment of her attention, and her eyes were constantly straying past him to the open window and the lawn beyond. It was certainly an unfortunate coincidence that he should have paid his visit on this tragic anniversary.   \"The doctors agree in ordering me complete rest, an absence of mental excitement, and avoidance of anything in the nature of violent physical exercise,\" announced Framton, who laboured under the tolerably wide-spread delusion that total strangers and chance acquaintances are hungry for the least detail of one's ailments and infirmities, their cause and cure. \"On the matter of diet they are not so much in agreement,\" he continued. \"No?\" said Mrs. Sappleton, in a voice which only replaced a yawn at the last moment. Then she suddenly brightened into alert attention—but not to what Framton was saying.   \"Here they are at last!\" she cried. \"Just in time for tea, and don't they look as if they were muddy up to the eyes!\"   Framton shivered slightly and turned towards the niece with a look intended to convey sympathetic comprehension. The child was staring out through the open window with dazed horror in her eyes. In a chill shock of nameless fear Framton swung round in his seat and looked in the same direction.   In the deepening twilight three figures were walking across the lawn towards the window; they all carried guns under their arms, and one of them was additionally burdened with a white coat hung over his shoulders. A tired brown spaniel kept close at their heels. Noiselessly they neared the house, and then a hoarse young voice chanted out of the dusk: \"I said, Bertie, why do you bound?\"   Framton grabbed wildly at his stick and hat; the hall-door, the gravel-drive, and the front gate were dimly-noted stages in his headlong retreat. A cyclist coming along the road had to run into the hedge to avoid an imminent collision.   \"Here we are, my dear,\" said the bearer of the white mackintosh, coming in through the window; \"fairly muddy, but most of it's dry. Who was that who bolted out as we came up?\"   \"A most extraordinary man, a Mr. Nuttel,\" said Mrs. Sappleton; \"could only talk about his illnesses, and dashed off without a word of good-bye or apology when you arrived. One would think he had seen a ghost.\"   \"I expect it was the spaniel,\" said the niece calmly; \"he told me he had a horror of dogs. He was once hunted into a cemetery somewhere on the banks of the Ganges by a pack of pariah dogs, and had to spend the night in a newly dug grave with the creatures snarling and grinning and foaming just above him. Enough to make anyone lose their nerve.\"   Romance at short notice was her speciality. "}, "commit"=>"Create Post"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "The Open Window is a Classic Story. Let us enjoy reading this one.   \"MY aunt will be down presently, Mr. Nuttel,\" said a very self-possessed young lady of fifteen; \"in the meantime you must try and put up with me.\"   Framton Nuttel endeavoured to say the correct something which should duly flatter the niece of the moment without unduly discounting the aunt that was to come. Privately he doubted more than ever whether these formal visits on a succession of total strangers would do much towards helping the nerve cure which he was supposed to be undergoing.   \"I know how it will be,\" his sister had said when he was preparing to migrate to this rural retreat; \"you will bury yourself down there and not speak to a living soul, and your nerves will be worse than ever from moping. I shall just give you letters of introduction to all the people I know there. Some of them, as far as I can remember, were quite nice.\"   Framton wondered whether Mrs. Sappleton, the lady to whom he was presenting one of the letters of introduction, came into the nice division.   \"Do you know many of the people round here?\" asked the niece, when she judged that they had had sufficient silent communion.   \"Hardly a soul,\" said Framton. \"My sister was staying here, at the rectory, you know, some four years ago, and she gave me letters of introduction to some of the people here.\"   He made the last statement in a tone of distinct regret.   \"Then you know practically nothing about my aunt?\" pursued the self-possessed young lady.   \"Only her name and address,\" admitted the caller. He was wondering whether Mrs. Sappleton was in the married or widowed state. An undefinable something about the room seemed to suggest masculine habitation. \"Her great tragedy happened just three years ago,\" said the child; \"that would be since your sister's time.\"   \"Her tragedy?\" asked Framton; somehow in this restful country spot tragedies seemed out of place.   \"You may wonder why we keep that window wide open on an October afternoon,\" said the niece, indicating a large French window that opened on to a lawn.   \"It is quite warm for the time of the year,\" said Framton; \"but has that window got anything to do with the tragedy?\"   \"Out through that window, three years ago to a day, her husband and her two young brothers went off for their day's shooting. They never came back. In crossing the moor to their favourite snipe-shooting ground they were all three engulfed in a treacherous piece of bog. It had been that dreadful wet summer, you know, and places that were safe in other years gave way suddenly without warning. Their bodies were never recovered. That was the dreadful part of it.\" Here the child's voice lost its self-possessed note and became falteringly human. \"Poor aunt always thinks that they will come back some day, they and the little brown spaniel that was lost with them, and walk in at that window just as they used to do. That is why the window is kept open every evening till it is quite dusk. Poor dear aunt, she has often told me how they went out, her husband with his white waterproof coat over his arm, and Ronnie, her youngest brother, singing 'Bertie, why do you bound?' as he always did to tease her, because she said it got on her nerves. Do you know, sometimes on still, quiet evenings like this, I almost get a creepy feeling that they will all walk in through that window—\"  She broke off with a little shudder. It was a relief to Framton when the aunt bustled into the room with a whirl of apologies for being late in making her appearance.   \"I hope Vera has been amusing you?\" she said.   \"She has been very interesting,\" said Framton.   \"I hope you don't mind the open window,\" said Mrs. Sappleton briskly; \"my husband and brothers will be home directly from shooting, and they always come in this way. They've been out for snipe in the marshes to-day, so they'll make a fine mess over my poor carpets. So like you men-folk, isn't it?\"   She rattled on cheerfully about the shooting and the scarcity of birds, and the prospects for duck in the winter. To Framton it was all purely horrible. He made a desperate but only partially successful effort to turn the talk on to a less ghastly topic; he was conscious that his hostess was giving him only a fragment of her attention, and her eyes were constantly straying past him to the open window and the lawn beyond. It was certainly an unfortunate coincidence that he should have paid his visit on this tragic anniversary.   \"The doctors agree in ordering me complete rest, an absence of mental excitement, and avoidance of anything in the nature of violent physical exercise,\" announced Framton, who laboured under the tolerably wide-spread delusion that total strangers and chance acquaintances are hungry for the least detail of one's ailments and infirmities, their cause and cure. \"On the matter of diet they are not so much in agreement,\" he continued. \"No?\" said Mrs. Sappleton, in a voice which only replaced a yawn at the last moment. Then she suddenly brightened into alert attention—but not to what Framton was saying.   \"Here they are at last!\" she cried. \"Just in time for tea, and don't they look as if they were muddy up to the eyes!\"   Framton shivered slightly and turned towards the niece with a look intended to convey sympathetic comprehension. The child was staring out through the open window with dazed horror in her eyes. In a chill shock of nameless fear Framton swung round in his seat and looked in the same direction.   In the deepening twilight three figures were walking across the lawn towards the window; they all carried guns under their arms, and one of them was additionally burdened with a white coat hung over his shoulders. A tired brown spaniel kept close at their heels. Noiselessly they neared the house, and then a hoarse young voice chanted out of the dusk: \"I said, Bertie, why do you bound?\"   Framton grabbed wildly at his stick and hat; the hall-door, the gravel-drive, and the front gate were dimly-noted stages in his headlong retreat. A cyclist coming along the road had to run into the hedge to avoid an imminent collision.   \"Here we are, my dear,\" said the bearer of the white mackintosh, coming in through the window; \"fairly muddy, but most of it's dry. Who was that who bolted out as we came up?\"   \"A most extraordinary man, a Mr. Nuttel,\" said Mrs. Sappleton; \"could only talk about his illnesses, and dashed off without a word of good-bye or apology when you arrived. One would think he had seen a ghost.\"   \"I expect it was the spaniel,\" said the niece calmly; \"he told me he had a horror of dogs. He was once hunted into a cemetery somewhere on the banks of the Ganges by a pack of pariah dogs, and had to spend the night in a newly dug grave with the creatures snarling and grinning and foaming just above him. Enough to make anyone lose their nerve.\"   Romance at short notice was her speciality. "], ["created_at", "2016-08-27 10:52:10.921302"], ["title", "The Open Window"], ["updated_at", "2016-08-27 10:52:10.921302"]]
+  [1m[36m (2.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts/4
+Completed 302 Found in 7ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/posts/4" for 127.0.0.1 at 2016-08-27 16:22:10 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 4]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 4]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (1.9ms)
+  Rendered posts/show.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 89ms (Views: 87.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 16:22:11 +0530
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 16:22:11 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 16:22:11 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 16:22:11 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 16:22:11 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 16:22:11 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 16:22:11 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 16:22:11 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 16:22:11 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 16:22:11 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 16:22:11 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 16:22:11 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 16:22:11 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 16:22:15 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 83ms (Views: 81.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts/3" for 127.0.0.1 at 2016-08-27 16:23:42 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 3]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 3]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (2.1ms)
+  Rendered posts/show.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 92ms (Views: 90.0ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/posts/3/comments" for 127.0.0.1 at 2016-08-27 16:24:03 +0530
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JxRm9NQHpivsFhUjW59hqWScLH/DfNPNsBVN9dSweQU=", "comment"=>{"name"=>"Gajesh", "body"=>"Hello! Hope this comment works."}, "commit"=>"Create Comment", "post_id"=>"3"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "name", "post_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["body", "Hello! Hope this comment works."], ["created_at", "2016-08-27 10:54:03.576474"], ["name", "Gajesh"], ["post_id", 3], ["updated_at", "2016-08-27 10:54:03.576474"]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts/3
+Completed 302 Found in 7ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/posts/3" for 127.0.0.1 at 2016-08-27 16:24:03 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 3]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 3]]
+  Rendered comments/_comment.html.erb (3.2ms)
+  Rendered comments/_form.html.erb (2.3ms)
+  Rendered posts/show.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 120ms (Views: 118.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 16:24:03 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 16:24:03 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 16:24:03 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 16:24:03 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 16:24:03 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 16:24:03 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 16:24:03 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 16:24:03 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 16:24:03 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 16:24:03 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 16:24:03 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 16:24:03 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 16:24:03 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 16:24:09 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (1.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 92ms (Views: 91.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts/4" for 127.0.0.1 at 2016-08-27 16:24:11 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 4]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 4]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (2.4ms)
+  Rendered posts/show.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 110ms (Views: 107.4ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/posts/4/comments" for 127.0.0.1 at 2016-08-27 16:24:26 +0530
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JxRm9NQHpivsFhUjW59hqWScLH/DfNPNsBVN9dSweQU=", "comment"=>{"name"=>"Gajesh", "body"=>"Nice Story!"}, "commit"=>"Create Comment", "post_id"=>"4"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "comments" ("body", "created_at", "name", "post_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["body", "Nice Story!"], ["created_at", "2016-08-27 10:54:26.663057"], ["name", "Gajesh"], ["post_id", 4], ["updated_at", "2016-08-27 10:54:26.663057"]]
+  [1m[36m (2.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts/4
+Completed 302 Found in 7ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/posts/4" for 127.0.0.1 at 2016-08-27 16:24:26 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 4]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 4]]
+  Rendered comments/_comment.html.erb (0.5ms)
+  Rendered comments/_form.html.erb (1.8ms)
+  Rendered posts/show.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 98ms (Views: 96.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 16:24:26 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 16:24:26 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 16:24:26 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 16:24:26 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 16:24:26 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 16:24:26 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 16:24:26 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 16:24:26 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 16:24:26 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 16:24:26 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 16:24:26 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 16:24:26 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 16:24:26 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 16:24:30 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (2.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 102ms (Views: 100.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2016-08-27 16:24:47 +0530
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 91ms (Views: 89.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/Profile.jpg" for 127.0.0.1 at 2016-08-27 16:24:47 +0530
+
+
+Started GET "/about" for 127.0.0.1 at 2016-08-27 16:27:59 +0530
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 109ms (Views: 107.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 16:27:59 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 16:27:59 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 16:27:59 +0530
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 16:27:59 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 16:27:59 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 16:27:59 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 16:27:59 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 16:27:59 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 16:27:59 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 16:27:59 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 16:27:59 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 16:27:59 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 16:27:59 +0530
+
+
+Started GET "/assets/Profile.jpg" for 127.0.0.1 at 2016-08-27 16:27:59 +0530
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2016-08-27 16:28:00 +0530
+
+
+Started GET "/about" for 127.0.0.1 at 2016-08-27 16:28:01 +0530
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 100ms (Views: 99.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2016-08-27 16:28:04 +0530
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 86ms (Views: 84.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 16:30:00 +0530
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (1.2ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (13.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 207ms (Views: 197.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 16:30:01 +0530
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 16:30:01 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 16:30:01 +0530
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 16:30:01 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 16:30:01 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 16:30:01 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 16:30:01 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 16:30:01 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 16:30:01 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 16:30:01 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 16:30:01 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 16:30:01 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 16:30:01 +0530
+
+
+Started GET "/about" for 127.0.0.1 at 2016-08-27 16:30:02 +0530
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 94ms (Views: 93.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/Profile.jpg" for 127.0.0.1 at 2016-08-27 16:30:02 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 16:31:23 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 85ms (Views: 84.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-27 16:31:25 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 84ms (Views: 83.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2016-08-27 16:31:25 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2016-08-27 16:31:25 +0530
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2016-08-27 16:31:25 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-27 16:31:25 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-27 16:31:25 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2016-08-27 16:31:25 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-27 16:31:25 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-27 16:31:25 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2016-08-27 16:31:25 +0530
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2016-08-27 16:31:25 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2016-08-27 16:31:25 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-27 16:31:25 +0530
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2016-08-27 16:31:25 +0530
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2016-08-27 16:31:26 +0530
